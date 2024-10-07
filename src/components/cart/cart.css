@@ -1,0 +1,152 @@
+.back-btn{
+    position: relative;
+    top:4rem;
+    text-decoration:none;
+    color:black
+}
+.back-btn:hover{
+    text-decoration:none;
+    color:black
+}
+@media (max-width: 767px) { 
+    .back-btn {
+        display: none;
+    }
+ }
+.continue-btn{
+    width: 100% !important;
+    border: 2px solid #1890FF  !important;
+    background-color: #FFFFFF !important;
+    min-height: 54px !important;
+    border-radius: 0 !important;
+    color: #1890FF  !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.87px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+}
+.continue-btn:hover{
+    width: 100% !important;
+    border: 2px solid #1890FF  !important;
+    background-color:#1890FF  !important;
+    min-height: 54px !important;
+    border-radius: 0 !important;
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.87px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+}
+.continue-btn:focus{
+    width: 100% !important;
+    border: 2px solid #1890FF  !important;
+    background-color: #1890FF  !important;
+    min-height: 54px !important;
+    border-radius: 0 !important;
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.87px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+}
+.cartIsEmpty {
+    text-align: center;
+    padding: 8rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: #1890FF;
+}
+label{
+    font-weight: 800;
+    margin-right: 2px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+._id{
+    display: none;
+}
+.modify_link{
+    text-decoration: underline;
+    color: #1890FF;
+    cursor:pointer
+}
+.link{
+    color: #1890FF
+}
+.text_decoration_none{
+    text-decoration: none;
+}
+.text_decoration_none:hover{
+    text-decoration: none;
+}
+
+@media
+only screen 
+and (min-width: 768px) {
+.card_page .left table tr td, .card_page .left table tr th{padding: 24px;}
+}
+
+@media
+only screen 
+and (max-width: 767px) {
+    .card_page_top {
+        margin-bottom: 20px;
+    }
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+tr {
+margin: 0 0 1rem 0;
+}
+
+tr:nth-child(odd) {
+background: #ccc;
+}
+
+  td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 30%; padding-top: 10px; padding-bottom: 10px;
+  }
+
+  td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 10px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap; text-transform: uppercase;
+  }
+
+  /*
+  Label the data
+You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: "Product"; }
+  td:nth-of-type(2):before { content: "Details"; }
+  td:nth-of-type(3):before { content: "Quantity"; }
+  td:nth-of-type(4):before { content: "Unit Cost"; }
+  td:nth-of-type(5):before { content: "Total"; }
+  td:nth-of-type(6):before { content: ""; }
+
+  .card_page .left tbody tr.text-center{ text-align: left !important
+    ;}
+
+}

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card_page{background-color: #FAFAFA;padding-top: 16px;padding-bottom: 200px;}
+.card_page_top ul{width: 480px;max-width: 100%;margin: 0 auto;position: relative;}
+.card_page_top ul li span {
+  color: #B7B7B7;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.16px;
+  line-height: 24px;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+  .card_page_top ul li  i {
+    width: 48px;
+    height: 48px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+} 
+  .card_page_top ul li{display: inline-block;text-align: center;width: 50%;}
+
+  .card_page_top ul:before {
+    content: "";
+    border-bottom: 1px solid #31A9F3;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    width: 35%;
+    margin: 0 auto;
+} 
+.card_page_top ul li.active i{background-color: #1890FF;}
+.card_page_top ul li.active span{color:#1890FF;}
+.card_page .left tbody tr {
+  box-shadow: 0 7px 19px 0 rgb(0 0 0 / 9%);
+  background-color: #FFF;
+} 
+.card_page .left table {
+  border-collapse: separate;width: 100%;
+  border-spacing: 0 0.5em;width: 100%;
+}
+.card_page .left table tr th{color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.16px;
+  line-height: 24px;}
+  .card_page .left table tr td{color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;}
+   
+.card_page .container-fluid {
+  max-width: 1300px;
+  width: 100%;
+} 
+
+.counter_input {
+  height: 41px;
+  width: 97px;
+  border: 1px solid #E7E7E7;
+  position: relative;
+  background-color: #FFFFFF;
+  padding-left: 28px;
+  margin: 0;
+  padding-right: 28px;
+}
+.counter_input button {
+  width: 28px;
+  position: absolute;
+  bottom: 0;
+  background-color: #E8E8E8;
+  top: 0;
+}
+.counter_input .input_box {
+  width: 39px;
+  height: 39px;
+  padding: 0 2px;
+  text-align: center;
+}
+.counter_input .btn_minus{left: 0px;}
+.counter_input .btn_plus{right: 0px;}
+.card_page .left  .link{color: #1890FF;
+  font-size: 12px;
+  font-weight: 500;text-decoration: underline;
+  letter-spacing: 0.87px;
+  line-height: 24px;}
+
+  .card_page .right_card {
+    width: 100%;
+    background-color: #FFF;
+    margin-top: 110px;
+    border: 1px solid #1890FF;
+    min-height: 527px;
+} 
+.card_page .right_card h4 {
+  background-color: #1890FF;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.79px;
+  line-height: 24px;
+  min-height: 112px;
+  display: inline-flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} 
+.right_card_in {
+  padding: 65px 55px;
+} 
+.right_card_in ul li {
+  opacity: 0.72;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.34px;
+  margin-bottom: 50px;
+  line-height: 24px;
+} 
+.right_card_in ul li.last{ color: #1890FF; 
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.79px;
+  line-height: 24px;}
+  .right_card_in ul li span {
+    min-width: 170px;
+    display: inline-block;
+} 
+.right_card .btn-primary {
+  width: 100%;
+  border: 2px solid #1890FF;
+  background-color: #FFFFFF;
+  min-height: 54px;
+  border-radius: 0;
+  color: #31A9F3;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.87px;
+  line-height: 24px;
+  text-align: center;
+} 
+  iframe {
+    display: none;
+} 
+.imgsrc {
+  display: none;
+}
+.stopUserClicks{
+  pointer-events: none;
+}
+
+
+@media
+only screen 
+and (max-width: 767px) {
+.right_card_in {
+  padding: 65px 20px;
+}
+}
